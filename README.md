@@ -27,6 +27,10 @@ Sigue los siguientes pasos para configurar el proyecto en tu entorno local.
 3. Una vez en la carpeta del proyecto instala los modulos de node:
    npm install
 
+4. Deberás crear en la raiz de la app un archivo .env con el siguiete codigo:
+    ZIP_API_URL="http://api.zippopotam.us/"
+    PORT=3000
+
 ## Configuración
 
 No se necesita una configuración especial para este proyecto ya que usa la API pública de Zippopotam.
